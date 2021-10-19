@@ -1,20 +1,54 @@
+.as{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    border:1px solid black ;
+    font-size: 2vw;    
+    width: 30vw;
+    display: inline-block;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+#as1{
+    /* margin-left: 20vh; */
+    margin-top: 20vh;
+}
+#as2{
+    /* margin-left: 40vh; */
+    margin-top: 20vh;
+} 
+
+#node{
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    height: 10vh;
+    font-size: 2vw;    
+    width: 30vw;
+    display: inline-block;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 2vh;
+
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body {
+  #asish {
     background-color: #000;
     color: #eee;
   }
   .container {
-    height: 90vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .container p {
-    font-size: 100px;
+    font-size: 20vw;
     padding: 0.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -24,7 +58,7 @@
   .container p span.typed-text {
     font-weight: normal;
     color: #dd7732;
-    font-size: 380px;
+    font-size: 20vw;
   }
   .container p span.cursor {
     display: inline-block;
